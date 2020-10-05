@@ -1,5 +1,4 @@
-<div class="Box-body px-5 pb-5">
-        <article class="markdown-body entry-content container-lg" itemprop="text">
+<article class="markdown-body entry-content container-lg" itemprop="text">
                 <h1>Some basic dockerfile examples</h1>
 <p>Use with Docker <a href="http://www.docker.io" rel="nofollow">http://www.docker.io</a></p>
 <p>To build an image with docker is pretty simple:</p>
@@ -13,4 +12,3 @@ docker build -t="rethinkdb" .
 <pre><code>docker run -d rethinkdb
 </code></pre>
 </article>
-      </div>
