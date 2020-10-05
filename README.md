@@ -5,7 +5,6 @@
   <pre>
     <code>
       cd dockerfile
-      docker build -t="rethinkdb" .
     </code>
   </pre>
   <p>Then to run that image and attach to it at the same time:</p>
