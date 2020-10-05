@@ -4,12 +4,10 @@
   <p>Bước 1. Bạn vào thư mục chứa Dockerfile bằng lệnh sau</p>
   <pre><code>cd dockerfile</code></pre>
   <p>Bước 2. Build Docker image và tạo container mới trên image vừa tạo</p>
-  <pre><code>docker build -t nginx_image .</code></pre>
+  <pre><code>sudo docker build -t nginx_image .</code></pre>
   <p>Bước 3. Chạy lệnh sau để tạo container mới từ nginx_image ở trên:</p>
-  <pre><code>docker run -d -v /webroot:/var/www/html -p 9000:80 --name viblo_test nginx_image</code></pre>
+  <pre><code>sudo docker run -it -v /webroot:/var/www/html -p 9000:80 --name demo_dockerfile nginx_image</code></pre>
 
 
-  <p>Or to run it in the background</p>
-  <pre><code>docker run -d rethinkdb
-  </code></pre>
+  <p>Tiếp đến, truy cập vào địa chỉ http://http://192.168.33.10:9000, để tận hưởng thành quả nào.</p>
 </article>
