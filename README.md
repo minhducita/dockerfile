@@ -4,7 +4,7 @@
   <p>To build an image with docker is pretty simple:</p>
   <pre>
     <code>
-      cd rethinkdb
+      cd dockerfile
       docker build -t="rethinkdb" .
     </code>
   </pre>
